@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(219, 219, 219);
+}
+.container{
+    width: 100%;
+    height: 926px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 40px;
+    max-width: 428px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.flower{
+    position: absolute;
+    top:1.94%;
+    right: 9.75%;
+    left: 53.5%;
+}
+.text{
+    display: flex;
+    width: 325px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    height: 147px;
+    justify-content: space-between;
+}
+.text p{
+    font-size: calc(100% + 3px);
+    color: #CEE8FF;
+}
+button{
+    width: 162px;
+    height: 55px;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    padding: 16px 30.5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    border-radius: 40px 0;
+}
+
+/* home css */
+.home{
+    padding: 45px 20px;
+    box-sizing: border-box;
+}
+.home h1:nth-child(1){
+    font-weight: normal;
+}
+.home h1:nth-child(2){
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 394px;
+    margin-top: 103px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.box .box-1{
+    width: 100%;
+    height: 157px;
+    background-color:rgba(6, 84, 107, 0.46);
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+}
+.box h1{
+    margin: 10% 10%;
+    font-size: calc(100% + 1em);
+    z-index: 2;
+}
+.box img{
+    height: 233px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -80px)
+}
+.box .box-2{
+    width: 100%;
+    height: 157px;
+    background-color: rgba(38, 34, 26, 0.43);
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+}
+.home h1:nth-child(4){
+    font-weight: normal;
+    margin-bottom: 59px;
+}
+.box-3{
+    width: 100%;
+    height: 157px;
+    background-color:#FCDFE9;
+    border-radius: 40px;
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+.box-3 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, -150px);
+}
+.box-4{
+    display: flex;
+    width: 202px;
+    flex-direction: column;
+    z-index: 2;
+}
+.box-4 .line{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-4 span{
+    width: 24px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.box-4 span:nth-child(1){
+    width: 30px;
+    background-color: #000;
+}
+.box-4 h1{
+    margin-top: 10%;
+}
+.box-4 a{
+    width: 15vw;
+    min-width: 36%;
+    height: 55px;
+    background-color: #000;
+    border-radius: 40px 0px;
+    padding: 0;
+    text-align: center;
+    line-height: 55px;
+}
+
+
+/* buy css */
+.buy{
+    background: rgba(8, 115, 138, 0.1);
+}
+.buy img{
+    width: 81.778%;
+    display: block;
+    margin: auto;
+    padding-top: 59px;
+}
+.choice{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    height: 374px;
+    background-color: white;
+    border-radius: 40px;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding-left: 20px;
+    /* padding-top: 37px; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom:60px;
+}
+.choice .color{
+    display: flex;
+    width: 100%;
+}
+.color h1{
+    font-size: 45px;
+}
+.color span{
+    width: 9.055%;
+    height: 64.82%;
+    border-radius: 50%;
+    background-color: #1794AA;
+    margin-top: 10px;
+    margin-left: 7%;
+}
+.color span:nth-child(3){
+    background-color: #F80101;
+}
+.color span:nth-child(4){
+    background-color: #000;
+}
+.size{
+    display: flex;
+    justify-content: center;
+}
+.size h1{
+    margin-right: 8.796%;
+}
+.size h1:nth-child(3){
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+p{
+    color: #2499FF;
+}
+.choice a{
+    width: 162px;
+    height: 55px;
+    background-color: #000;
+    border-radius: 40px 0;
+    padding: 0;
+    text-align: center;
+    line-height: 55px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    justify-content: space-between;
+}
+.price h2{
+    color: #B3B3B3;
+}
+.price h1{
+    color: #2CA36D;
+}

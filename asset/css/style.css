@@ -73,6 +73,18 @@ a{
     top: 45px;
     right: 20px;
 }
+.avatar-click{
+    width: 60%;
+    height: 37%;
+    background: red;
+    border-radius: 0 40px 0 0;
+    box-shadow: -1px 1px 2px #a69e9d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    
+}
 .box{
     display: flex;
     width: 100%;

@@ -68,6 +68,11 @@ a{
 .home h1:nth-child(2){
     font-weight: bold;
 }
+.avatar{
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
 .box{
     display: flex;
     width: 100%;
@@ -105,7 +110,7 @@ a{
     display: flex;
     position: relative;
 }
-.home h1:nth-child(4){
+.home h1:nth-child(5){
     font-weight: normal;
     margin-bottom: 59px;
 }
